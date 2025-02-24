@@ -553,3 +553,56 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-\[10\%\] {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#F9995D\] {
+  --tw-text-opacity: 1;
+  color: rgb(249 153 93 / var(--tw-text-opacity, 1));
+}ar(--tw-text-opacity, 1));
+}
